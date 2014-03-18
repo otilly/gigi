@@ -1,0 +1,529 @@
+/*   
+Theme Name: gigi v1.0
+Description: Theme design by T.C.
+Author: Oskar Tilly
+Version: 1.0;
+*/
+
+@media screen {
+
+* { margin: 0; padding: 0; }
+body { background: white; font: 13px/1.3 'Courier New', Georgia, Serif; color: #555;}
+.screen-reader-text { position: absolute; left: -cccpx; top: -9999px; }
+.clear { clear: both; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+
+/* Header
+------------------------------------------*/
+#header {
+    position: relative;
+}
+#header_left, #header_right {
+    display: none;
+}
+#header_left p {
+	font-weight: bold;
+	color: orange;	
+}
+#header_right a {
+	line-height: 24px;	
+}
+#header_right .widget_product_search {
+	margin-top: 10px;	
+}
+#header_right .widget_product_search {
+	display: block;
+    float: right;
+    position: relative;
+    width: 166px;
+	height: 26px;
+}
+#header_right input#s {
+	background: #fff;
+    border: 1px solid #ddd;
+    height: 13px;
+    left: 0;
+    padding: 2px 40px 2px 6px;
+    position: absolute;
+    top: 0;
+    width: 118px;
+    z-index: 2;
+	color: #999;
+}
+#header_right input#searchsubmit {
+	background: url("images/search-ico.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 12px;
+    position: absolute;
+    right: 8px;
+    text-indent: -9999px;
+    top: 4px;
+    width: 11px;
+    z-index: 3; 
+	border: none;
+}
+.social_icons {
+    height: 20px;
+    margin-bottom: 5px;
+}
+.s_icon {
+    display: block;
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin: 0px 0px 0px 5px;
+    background: url('images/icon_spry.png') no-repeat;
+    background-size: 40px 100px;
+}
+.facebook:hover {
+    background-position: -20px 0px;
+}
+.twitter {
+    background-position: 0px -20px;
+}
+.twitter:hover {
+    background-position: -20px -20px;
+}
+.g_plus {
+    background-position: 0px -40px;
+}
+.g_plus:hover {
+    background-position: -20px -40px;
+}
+.insta_g {
+    background-position: 0px -60px;
+}
+.insta_g:hover {
+    background-position: -20px -60px;
+}
+.mailing {
+    background-position: 0px -80px;
+}
+.mailing:hover {
+    background-position: -20px -80px;
+}
+#home_logo {
+    background: url('images/espa-logo.png') no-repeat;
+    width: 222px;
+    height: 144px;
+    display: block;
+    margin: 30px auto;
+}
+#mobile_nav {
+    background: #222;
+}
+#mobile_nav li {
+    list-style-type: none;
+}
+#mobile_nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    background: url('images/arrow.png') no-repeat 96% center;
+}
+#mobile_bar {
+    border-bottom: 1px solid #ccc;
+    height: 39px;
+}
+#button {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 6px;
+    float: left;
+    position: absolute;
+}
+#mobile_bar .close {
+    background: #222;
+}
+.t_line, .c_line, .b_line {
+    border-bottom: 3px solid #000;
+    width: 100%;
+    height:0px;
+    display: block;
+}
+.c_line {
+    margin: 5px 0px;
+}
+.close .t_line, .close .c_line, .close .b_line {
+    border-bottom: 3px solid #fff;
+}
+.cart_btn {
+    float: right;
+    line-height: 39px;
+    padding-right: 10px;
+}
+#navigation {
+    display: none;
+}
+/* Wrap Styles
+------------------------------------------*/
+#page-wrap { 
+	width: 92%;
+	max-width: 960px; 
+	margin: 0px auto; 
+    padding: 0 4%;
+    position: relative;
+}
+/* Image & Type Styles
+------------------------------------------*/
+a img {
+	border: none;	
+}
+embed, img {
+	max-width: 100%;
+	height: auto;
+}
+a {
+    color: #222;
+}
+a:hover {
+    text-decoration: none;
+}
+.hanging_title, h1.page-title {
+    font-size: 14px;
+    font-weight: normal;
+    border-top: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 10px;
+}
+/* Home
+------------------------------------------*/
+.home_slider {
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+.more_btn {
+    background: #eee;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+	max-width: 110px;
+    clear: both;
+    cursor: pointer;
+	text-align: center;
+}
+.more_btn:hover {
+    background: #ccc;
+}
+/* Slider
+------------------------*/
+#slide_nav {
+    display: none;
+}
+.slide_nav_item .subtitle{
+    max-width: 260px;
+}
+.slide_entry {
+    position: absolute;
+    z-index: 10;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
+    margin: 5%;
+    bottom:0;
+    padding: 5%;
+    width: 80%;
+}
+.slide_entry a {
+    color: orange;
+    text-decoration: underline;
+}
+.video_entry {
+    padding-top: 56.2%;
+    position: relative;
+    width: 100%;
+
+}
+.video_entry iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Home shop container
+------------------------*/
+.shop_content {
+    margin-top: 5px;
+}
+/* Blog
+------------------------------------------*/
+.archive_blogpost {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.insta_btn {
+    background: #eee;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    clear: both;
+    cursor: pointer;
+}
+.insta_btn:hover {
+    background: #ccc;
+}
+/* Footer
+------------------------------------------*/
+#footer {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px;
+    height: 39px;
+}
+.foot_nav {
+    display: none;
+}
+.foot_name {
+    float: left;
+    margin: 10px 0px 10px 10px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+.foot_up {
+    width: 19px;
+    height: 19px;
+    background: #ccc;
+    margin: 10px;
+    display: block;
+    float: left;
+}
+}
+/* 
+------------------------------------------
+321 ------------------------------------------
+------------------------------------------
+*/
+@media screen and (min-width: 321px){
+/* Switch to 2 columns */
+/* Instagram Feed
+------------------------------------------*/
+.insta_feed .instagram-placeholder {
+    float: left;
+    max-width: 48%;
+    margin: 1%;
+    list-style-type: none;
+}
+}
+/* 
+------------------------------------------
+481 ------------------------------------------
+------------------------------------------
+*/
+@media screen and (min-width: 481px){
+/* Wrap Styles
+------------------------------------------*/
+#page-wrap { 
+    width: 96%;
+    padding: 0 2%;
+}
+/* Instagram Feed
+------------------------------------------*/
+.insta_feed {
+    background: #eee;
+}
+.insta_feed .instagram-placeholder {
+    float: left;
+    max-width: 29.333%;
+    margin: 2%;
+    list-style-type: none;
+}
+}
+/* 
+------------------------------------------
+700 ------------------------------------------
+------------------------------------------
+*/
+@media screen and (min-width: 700px){
+/* Header
+------------------------------------------*/
+#mobile_header {
+    display: none;
+}
+#header_left {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32%;
+}
+#header_right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32%;
+    text-align: right;
+}
+#header_right a {
+    display: block;
+}
+#navigation {
+    display: block;
+    height: 39px;
+    display: table;
+    margin: 0px auto;
+}
+#navigation a {
+    color: #333;
+    text-decoration: none;
+    line-height: 39px;
+    float: left;
+    margin: 0px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	font-weight: bold;
+}
+#navigation a:hover {
+    text-decoration: underline;
+}
+/* Home
+------------------------------------------*/
+/* Slide Nav
+------------------------*/
+.home_slider, #slider, .flex-viewport {
+    max-height: 378px;
+    overflow: hidden;
+}
+#slide_nav {
+    display: block;
+    float: left;
+    width: 30%;
+    position:relative;
+    z-index: 10;
+}
+#slide_nav li {
+    list-style-type: none;
+    
+}
+#slide_nav li a {
+    padding: 10px 5%;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    width: 90%;
+    -webkit-transition: width 600ms ease-in-out, background-color 600ms linear;
+    -moz-transition: width 600ms ease-in-out, background-color 600ms linear;
+    -o-transition: width 600ms ease-in-out, background-color 600ms linear;
+    transition: width 600ms ease-in-out, background-color 600ms linear;
+}
+#slide_nav .flex-active {
+    background: orange;
+    border-bottom: 1px solid orange;
+    width: 107%;
+    -webkit-transition: width 600ms ease-in-out;
+    -moz-transition: width 600ms ease-in-out;
+    -o-transition: width 600ms ease-in-out;
+    transition: width 600ms ease-in-out;
+    color: #fff;
+}
+#slide_nav li a:hover {
+    background: orange;
+    border-bottom: 1px solid orange;
+    color: #fff;
+}
+#slide_nav h3 {
+    text-transform: uppercase;
+}
+.flexslider {
+    z-index: 9;
+}
+.flexslider {
+    float: left;
+    width: 70%;
+}
+
+/* Page
+------------------------------------------*/
+.content {
+    float: left;
+    width: 67%;
+}
+#sidebar {
+    float:left;
+    width: 30%;
+    margin-left: 3%;
+}
+/* Instagram Feed
+------------------------------------------*/
+.insta_feed .instagram-placeholder {
+    max-width: 23%;
+    margin: 1%;
+}
+/* Footer
+------------------------------------------*/
+.foot_nav {
+    display: block;
+    float: left;
+}
+#footer_nav a {
+    line-height: 39px;
+    text-decoration: none;
+    color: #333;
+    margin: 0px 10px;
+}
+.foot_up {
+    display: none;
+}
+/* Checkout
+------------------------------------------*/
+#checkout-page {
+    float: left;
+    width: 57%;
+}
+#order_review {
+    float:left;
+    width: 34%;
+    padding: 3%;
+    margin-left: 3%; 
+}
+#order_review_heading {
+    float:left;
+    width: 40%;
+    margin-left: 3%; 
+}
+#payment {
+    clear: both;
+}
+}
+/* 
+------------------------------------------
+------------------------------------------
+------------------------------------------
+*/
+@media screen and (min-width: 820px){
+
+
+}
+/* WordPress Core, post image handling
+------------------------------------------*/
+.alignnone {margin: 5px 20px 20px 0;}
+.aligncenter, div.aligncenter {display:block; margin: 5px auto 5px auto;}
+.alignright {float:right; margin: 5px 0 20px 20px;}
+.alignleft {float:left; margin: 5px 20px 20px 0;}
+.aligncenter {display: block; margin: 5px auto 5px auto;}
+a img.alignright {float:right; margin: 5px 0 20px 20px;}
+a img.alignnone {margin: 5px 20px 20px 0;}
+a img.alignleft {float:left; margin: 5px 20px 20px 0;}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.wp-caption {background: #fff; border: 1px solid #f0f0f0; max-width: 96%; padding: 5px 3px 10px; text-align: center;}
+.wp-caption.alignnone {margin: 5px 20px 20px 0;}
+.wp-caption.alignleft {margin: 5px 20px 20px 0;}
+.wp-caption.alignright {margin: 5px 0 20px 20px;}
+.wp-caption img {border: 0 none; height: auto; margin:0; max-width: 98.5%; padding:0; width: auto;}
+.wp-caption p.wp-caption-text {font-size:11px; line-height:17px; margin:0; padding:0 4px 5px;}
+
+} /* END screen media */

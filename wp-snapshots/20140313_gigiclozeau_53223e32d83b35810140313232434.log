@@ -1,0 +1,87 @@
+********************************************************************************
+PACKAGE-LOG: 2014-03-13 23:24:34
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.2
+WORDPRESS:	3.8.1
+PHP INFO:	5.3.24 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (64M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:19 | filtered:0 | create:19 
+FILTERED: [] 
+wp_commentmeta (0) 
+wp_comments (0) 
+wp_duplicator_packages (1) 
+wp_links (0) 
+wp_options (316) 
+wp_postmeta (566) 
+wp_posts (63) 
+wp_term_relationships (23) 
+wp_term_taxonomy (30) 
+wp_terms (30) 
+wp_usermeta (19) 
+wp_users (1) 
+wp_woocommerce_attribute_taxonomies (3) 
+wp_woocommerce_downloadable_product_permissions (0) 
+wp_woocommerce_order_itemmeta (0) 
+wp_woocommerce_order_items (0) 
+wp_woocommerce_tax_rate_locations (0) 
+wp_woocommerce_tax_rates (0) 
+wp_woocommerce_termmeta (28) 
+SQL CREATED: 20140313_gigiclozeau_53223e32d83b35810140313232434_database.sql 
+SQL FILE SIZE: 527.72KB 
+SQL RUNTIME: 0.30 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/content/49/10907849/html 
+ARCHIVE FILE: 20140313_gigiclozeau_53223e32d83b35810140313232434_archive.zip 
+FILTER DIRS:   
+FILTER EXTS:   
+---------------------------------------- 
+SCANNING 
+FILTERS *OFF* 
+STATS:	Dirs 441 | Files 4632 | Links 1 
+SIZE:	81.04MB 
+TIME:	5.57 sec. 
+---------------------------------------- 
+COMPRESSING 
+SQL ADDED: 20140313_gigiclozeau_53223e32d83b35810140313232434_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5074
+    [filename] => /home/content/49/10907849/html/wp-snapshots/tmp/20140313_gigiclozeau_53223e32d83b35810140313232434_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 30.19MB 
+ARCHIVE RUNTIME: 69.73 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [/home/content/49/10907849/html/wp-snapshots/tmp/20140313_gigiclozeau_53223e32d83b35810140313232434_installer.php] 
+
+********************************************************************************
+RECORD ID:[1]
+FILE SIZE: Archive:30.19MB | SQL:527.72KB | Installer:408.49KB
+TOTAL PROCESS RUNTIME: 70.22 sec.
+DONE PROCESSING => 20140313_gigiclozeau 2014-03-13 23:25:45
+********************************************************************************
+ 
